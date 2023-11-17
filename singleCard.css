@@ -1,0 +1,103 @@
+@import url("utility.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+.header {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    width: 100vw;
+    background-color: #efefef;
+    padding: 1rem 9rem 1rem 6rem;
+  }
+  .cuisine-filter {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .main {
+    gap: 3rem;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  
+  .card {
+    width: 20rem;
+    height: max-content;
+    border-radius: 4px;
+    background-color: #f8fafc;
+    padding: 8px;
+  }
+  
+  .card:hover {
+    scale: 1.1;
+    transition: scale 0.5s;
+  }
+  
+  .shadow {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image-container {
+    width: 100%;
+    height: 18rem;
+    padding-bottom: 4px;
+    padding-left: 1rem;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: center center;
+    border-radius: 4px 4px 4px 4px;
+  }
+  
+  .card-image:hover {
+    cursor: pointer;
+  }
+  
+  .recipe-details {
+    padding: 8px;
+  }
+  
+  .title {
+    font-size: 1.1rem;
+  }
+  
+  .ratings {
+    display: flex;
+    justify-content: space-between;
+    color: #71717a;
+    padding-top: 8px;
+    font-size: 0.875rem;
+  }
+  
+  .time {
+    font-size: 0.875rem;
+    align-self: center;
+  }
+  
+  .star-rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  .ingredients-card{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.ingredients{
+    gap: 3rem;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}  
